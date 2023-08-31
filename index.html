@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formusing DOM</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        
+       
+        <div id="container">
+            <div id="header">
+                <h1 id="title">Form Manipulation Using DOM</h1>
+                <p id="description">This is the form using Dom </p>
+            </div>
+                <form  id="form">
+                    <div class="form-group">
+                        <label for="first-name">First Name :</label>
+                        <input type="text"  id="first-name" placeholder="Enter the first-name" required >
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name :</label>
+                        <input type="text" placeholder="Enter the last-name" id="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address :</label>
+                        <textarea  id="address" placeholder="Enter your address" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="pincode">pincode :</label>
+                        <input type="text" placeholder="Enter your area Pincode" id="pincode" required>
+                    </div>
+                    <span class="gender">Gender :</span>
+                        <div class="form-radio">
+                            <input type="radio" name="flexRadioDefault" value="male">
+                            <label for="male"> Male</label>
+                            <input type="radio" name="flexRadioDefault" value="female">
+                            <label for="female"> Female</label>
+                            <input type="radio" name="flexRadioDefault" value="others">
+                            <label for="others"> Others</label>
+                        </div>
+                    <span class="food">Choices of food :</span>
+                        <div class="form-check">
+                            <input type="checkbox" value="sappathi" id="food1" name="option">
+                            <label for="sappathi">Sappathi</label>
+                            <input type="checkbox" value="idly" id="food2" name="option">
+                            <label for="idly">Idly</label>
+                            <input type="checkbox" value="dhosa" id="food3" name="option">
+                            <label for="dhosa">Dhosa</label>
+                            <input type="checkbox" value="meals" id="food4" name="option">
+                            <label for="meals">Meals</label>
+                            <input type="checkbox" value="pongal" id="food5" name="option">
+                            <label for="pongal">Pongal</label>
+                        </div>
+                    <div class="form-group">
+                        <label for="state">State :</label>
+                        <input type="text" placeholder="Enter your State" id="state">
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country :</label>
+                        <input type="text" placeholder="Enter your country" id="country">
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+            <div>
+                <div id="header">
+                    <h1 id="title">User Table</h1>
+                    <p id="description">This usertable hold the user entered information only </p>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Address</th>
+                            <th>pincode</th>
+                            <th>Gender</th>
+                            <th>Choice of Food</th>
+                            <th>State</th>
+                            <th>country</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tablebody" id="tablebody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+        <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>  
+    </body>
+</html>

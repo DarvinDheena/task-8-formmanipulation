@@ -1,0 +1,96 @@
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(210, 207, 207);
+ }
+ #container{
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 20px;
+    overflow: hidden;
+    background-color: rgb(157, 155, 155);
+    border-radius: 10px;
+ }
+ #header {
+    background-color: rgb(103, 101, 101);
+ }
+ h1{
+    font-size: 26px;
+    text-align: center;
+    padding: 5px;
+ }
+ p{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+ }
+#form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+/* .form-group:nth-child(2n){
+    justify-content: end;
+} */
+.form-group label, .gender ,.food{
+    width: 95%;
+    font-weight: bold;
+    padding:5px;
+    font-size: 18px;
+}
+.form-group input , textarea{
+    width: 95%;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(240, 235, 235);
+    padding: 10px ;
+}
+.form-radio label,.form-check label {
+    padding: 0 20px 0 5px;
+}
+.form-radio label , .form-radio input,.form-check label, .form-check input {
+    cursor: pointer;
+}
+#submit{
+    background-color: rgb(109, 109, 112);
+    padding: 5px;
+    width: 40%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+table, tr , th,td {
+    background-color: rgb(157, 155, 155);   
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
